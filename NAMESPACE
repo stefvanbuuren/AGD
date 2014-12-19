@@ -1,0 +1,13 @@
+importFrom("utils",packageDescription)
+import(gamlss)
+
+export("y2z",
+       "z2y",
+       "wp.twin",
+       "ageGrid",
+       "extractLMS"
+)
+
+
+
+

@@ -1,0 +1,17 @@
+citHeader("To cite package 'AGD' in publications use:")
+
+  desc <- packageDescription("AGD")
+  year <- 2012
+  vers <- paste("R package version", desc$Version)
+
+bibentry(
+    bibtype = "Manual",
+    title = "AGD: Analysis of Growth Data",
+    author = c(
+        person("Stef", "van Buuren", role = c("aut","cre"), 
+               email = "stef.vanbuuren@tno.nl")),
+    year = "2012",
+    note = "R package version 0.31",
+    url = "http://CRAN.R-project.org/package=AGD",
+    key = "AGD-package"
+    )
