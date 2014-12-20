@@ -2,8 +2,8 @@
 #
 # System functions for the AGD library
 
-#------------------------------.onLoad-------------------------------
-.onLoad <- function(...){
+#------------------------------.onAttach-------------------------------
+.onAttach <- function(...){
   d <- packageDescription("AGD")
   packageStartupMessage(paste(d$Package,d$Version,d$Date))
   return()

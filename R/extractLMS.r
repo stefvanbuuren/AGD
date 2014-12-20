@@ -31,9 +31,9 @@
 #'@keywords distribution
 #'@examples
 #'
-#'
+#'\dontrun{
 #'#
-#'library(AGD)
+#'library(gamlss)
 #'boys <- boys7482
 #'
 #'# calculate initial M curve
@@ -73,7 +73,7 @@
 #'
 #'nl4.hgt.boys.log <- extractLMS(fit = f0106rlog, data=data.t)
 #'nl4.hgt.boys.log
-#'
+#'}
 extractLMS <- function(fit, data, sex="M", grid="classic",
             decimals = c(4,4,4), 
             flatAge = NULL)

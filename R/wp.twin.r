@@ -74,6 +74,7 @@
 #'@keywords smooth
 #'@examples
 #'
+#'library(gamlss)
 #'data(abdom)
 #'a <- gamlss(y~cs(x,df=1),sigma.fo=~cs(x,0),family=LO,data=abdom)
 #'b <- gamlss(y~cs(x,df=3),sigma.fo=~cs(x,1),family=LO,data=abdom)

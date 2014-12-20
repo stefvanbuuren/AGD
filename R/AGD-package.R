@@ -12,13 +12,17 @@
 #'
 #'@name boys7482
 #'@docType data
-#'@format A data frame with 7482 rows on the following 9 variables: \describe{
-#'\item{list("age")}{Decimal age (0-21 years)} \item{list("hgt")}{Height (cm)}
-#'\item{list("wgt")}{Weight (kg)} \item{list("bmi")}{Body mass index}
-#'\item{list("hc")}{Head circumference (cm)} \item{list("gen")}{Genital Tanner
-#'stage (G1-G5)} \item{list("phb")}{Pubic hair (Tanner P1-P6)}
-#'\item{list("tv")}{Testicular volume (ml)} \item{list("reg")}{Region (north,
-#'east, west, south, city)} }
+#'@format A data frame with 7482 rows on the following 9 variables: 
+#'\describe{
+#'\item{age}{Decimal age (0-21 years)} 
+#'\item{hgt}{Height (cm)}
+#'\item{wgt}{Weight (kg)} 
+#'\item{bmi}{Body mass index}
+#'\item{hc}{Head circumference (cm)} 
+#'\item{gen}{Genital Tanner stage (G1-G5)} 
+#'\item{phb}{Pubic hair (Tanner P1-P6)}
+#'\item{tv}{Testicular volume (ml)} 
+#'\item{reg}{Region (north, east, west, south, city)} }
 #'@author Stef van Buuren, 2012
 #'@source Fredriks, A.M,, van Buuren, S., Burgmeijer, R.J., Meulmeester JF,
 #'Beuker, R.J., Brugman, E., Roede, M.J., Verloove-Vanhorick, S.P., Wit, J.M.
@@ -48,9 +52,9 @@ NULL
 #'The naming conventions are as follows: \describe{
 #'\item{list("cdc.hgt")}{Combined length/height (cm) for Age, 0-20 years.
 #'Measures <2 years apply to length (lying), while ages >= 2 years apply to
-#'height, or stature (standing).} \item{list("cdc.wgt")}{Weight (kg) for Age,
-#'0-20 years.} \item{list("cdc.bmi")}{Body Mass Index (kg/m2) for Age, 2-20
-#'years)} }
+#'height, or stature (standing).} 
+#'\item{list("cdc.wgt")}{Weight (kg) for Age, 0-20 years.} 
+#'\item{list("cdc.bmi")}{Body Mass Index (kg/m2) for Age, 2-20 years.}}
 #'
 #'@name References CDC
 #'@aliases cdc.hgt cdc.wgt cdc.bmi

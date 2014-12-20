@@ -1,5 +1,6 @@
-importFrom("utils",packageDescription)
-import(gamlss)
+importFrom("utils", packageDescription)
+importFrom("gamlss.dist", pBCCG, pBCPE, pBCT, qBCCG, qBCPE, qBCT)
+importFrom("gamlss", gamlss, gamlss.control, is.gamlss, predictAll)
 
 export("y2z",
        "z2y",

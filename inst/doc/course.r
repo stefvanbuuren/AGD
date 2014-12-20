@@ -1,5 +1,6 @@
 # course.r
 #
+library(gamlss)
 library(AGD)
 boys <- boys7482
 
