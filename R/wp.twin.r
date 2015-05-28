@@ -64,13 +64,11 @@
 #'
 #'van Buuren and Fredriks M. (2001) Worm plot: simple diagnostic device for
 #'modelling growth reference curves.  \emph{Statistics in Medicine}, \bold{20},
-#'1259--1277.  \url{http://www.stefvanbuuren.nl/publications/Worm plot - Stat
-#'Med 2001.pdf}
+#'1259--1277. 
 #'
 #'van Buuren and Fredriks M. (2007) Worm plot to diagnose fit in quantile
 #'regression.  \emph{Statistical Modelling}, \bold{7}, 4, 363--376.
-#'\url{http://www.stefvanbuuren.nl/publications/WP quantile regression - Stat
-#'Mod 2007.pdf}
+#'
 #'@keywords smooth
 #'@examples
 #'

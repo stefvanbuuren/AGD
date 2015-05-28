@@ -12,6 +12,15 @@ Stef van Buuren - stef.vanbuuren@tno.nl
 
 CHANGELOG AGD
 ~~~~~~~~~~~~~~
+V0.35 - 27-05-2015 / SvB
+- Syntax warnings eliminated
+
+V0.34 - 12-05-2015 / SvB
+- WHO tail adjustment procedure added
+
+V0.33 - 11-05-2015 / SvB
+- WHO references hgt, wgt, bmi, wfh, wfl added
+
 V0.32 - 11-01-2015 / SvB
 - maintainance update to update CITATION file 
 

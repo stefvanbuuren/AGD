@@ -22,19 +22,17 @@
 #'\item{gen}{Genital Tanner stage (G1-G5)} 
 #'\item{phb}{Pubic hair (Tanner P1-P6)}
 #'\item{tv}{Testicular volume (ml)} 
-#'\item{reg}{Region (north, east, west, south, city)} }
+#'\item{reg}{Region (north, east, west, south, city)} 
+#'}
 #'@author Stef van Buuren, 2012
 #'@source Fredriks, A.M,, van Buuren, S., Burgmeijer, R.J., Meulmeester JF,
 #'Beuker, R.J., Brugman, E., Roede, M.J., Verloove-Vanhorick, S.P., Wit, J.M.
 #'(2000) Continuing positive secular growth change in The Netherlands
-#'1955-1997.  \emph{Pediatric Research}, \bold{47}, 316-323.
-#'\url{http://www.stefvanbuuren.nl/publications/Continuing secular - Ped Res
-#'2000.pdf}
+#'1955-1997.  \emph{Pediatric Research}, \bold{47}, 316-323. 
 #'
 #'Fredriks, A.M., van Buuren, S., Wit, J.M., Verloove-Vanhorick, S.P. (2000).
 #'Body index measurements in 1996-7 compared with 1980.  \emph{Archives of
-#'Disease in Childhood}, \bold{82}, 107-112.
-#'\url{http://www.stefvanbuuren.nl/publications/Body index - ADC 2000.pdf}
+#'Disease in Childhood}, \bold{82}, 107-112. 
 #'@keywords datasets
 NULL
 
@@ -110,14 +108,12 @@ NULL
 #'@source Fredriks, A.M,, van Buuren, S., Burgmeijer, R.J., Meulmeester JF,
 #'Beuker, R.J., Brugman, E., Roede, M.J., Verloove-Vanhorick, S.P., Wit, J.M.
 #'(2000) Continuing positive secular growth change in The Netherlands
-#'1955-1997.  \emph{Pediatric Research}, \bold{47}, 316-323.
-#'\url{http://www.stefvanbuuren.nl/publications/Continuing secular - Ped Res
-#'2000.pdf}
+#'1955-1997.  \emph{Pediatric Research}, \bold{47}, 316-323. 
 #'
 #'Fredriks, A.M., van Buuren, S., Wit, J.M., Verloove-Vanhorick, S.P. (2000).
 #'Body index measurements in 1996-7 compared with 1980.  \emph{Archives of
-#'Disease in Childhood}, \bold{82}, 107-112.
-#'\url{http://www.stefvanbuuren.nl/publications/Body index - ADC 2000.pdf}
+#'Disease in Childhood}, \bold{82}, 107-112. 
+#'
 #'@keywords datasets
 NULL
 
@@ -159,14 +155,12 @@ NULL
 #'@source Fredriks, A.M,, van Buuren, S., Burgmeijer, R.J., Meulmeester JF,
 #'Beuker, R.J., Brugman, E., Roede, M.J., Verloove-Vanhorick, S.P., Wit, J.M.
 #'(2000) Continuing positive secular growth change in The Netherlands
-#'1955-1997.  \emph{Pediatric Research}, \bold{47}, 316-323.
-#'\url{http://www.stefvanbuuren.nl/publications/Continuing secular - Ped Res
-#'2000.pdf}
+#'1955-1997.  \emph{Pediatric Research}, \bold{47}, 316-323. 
 #'
 #'Fredriks, A.M., van Buuren, S., Wit, J.M., Verloove-Vanhorick, S.P. (2000).
 #'Body index measurements in 1996-7 compared with 1980.  \emph{Archives of
-#'Disease in Childhood}, \bold{82}, 107-112.
-#'\url{http://www.stefvanbuuren.nl/publications/Body index - ADC 2000.pdf}
+#'Disease in Childhood}, \bold{82}, 107-112. 
+#'
 #'@keywords datasets
 NULL
 
@@ -174,28 +168,47 @@ NULL
 
 
 
-#'Reference tables from WHO 2006
+#'References WHO
 #'
-#'Reference tables from WHO 2006
+#'Reference tables, combined from the WHO Multicentre Growth Reference 
+#'Study (MGRS) (ages 0-5 years) and the WHO 2007 reference (5-19 years).
 #'
 #'The data were fitted by the LMS model. Parameters are stored as type
-#'\code{LMS}. Tabulated values are point ages. The ages cover 0-5 years.
+#'\code{LMS}. Tabulated values are point ages.
 #'
-#'The naming conventions are as follows: \describe{
-#'\item{list("who.wgt")}{Weight (kg) for Age} }
+#'The naming conventions are as follows: 
+#'\describe{
+#'\item{who.hgt}{Length (cm, 0-2 Yrs) or height (cm, 2-19 years)} 
+#'\item{who.wgt}{Weight (kg) for age (0-10 years)}
+#'\item{who.bmi}{BMI (kg/m^2) for age (0-19 years)}
+#'\item{who.wfh}{Weight (kg) for height (65-120 cm)}
+#'\item{who.wfl}{Weight (kg) for length (45-110 cm)}
+#'}
 #'
 #'@name References WHO
-#'@aliases who.wgt
+#'@aliases who.wgt who.hgt who.bmi who.wfh who.wfl
 #'@docType data
-#'@format A data frame with seven variables: \describe{
-#'\item{list("pop")}{Study Population} \item{list("sub")}{Subpopulation}
-#'\item{list("sex")}{Sex (M,F)} \item{list("x")}{Decimal age (0-5 years)}
-#'\item{list("L")}{Lambda (skewness) curve} \item{list("M")}{Median curve}
-#'\item{list("S")}{Coefficient of Variation curve} }
-#'@seealso \code{\link{nl4.wgt}}, \code{\link{cdc.wgt}}
-#'@source WHO Multicentre Growth Reference Study Group.  WHO Child Growth
+#'@format A data frame with seven variables: 
+#'\describe{
+#'\item{pop}{Study Population (always \code{"who"})} 
+#'\item{sub}{Subpopulation (always \code{"N"})}
+#'\item{sex}{Sex (M, F)}
+#'\item{x}{Decimal age, height (cm) or length(cm)}
+#'\item{L}{Lambda (skewness) curve}
+#'\item{M}{Median curve}
+#'\item{S}{Coefficient of variation}
+#'}
+#'@seealso \code{\link{nl4.wgt}}, \code{\link{cdc.wgt}}, 
+#'\url{http://www.who.int/childgrowth/mgrs/en/},
+#'\url{http://www.who.int/growthref/en/} 
+#'@source 
+#'WHO Multicentre Growth Reference Study Group.  WHO Child Growth
 #'Standards based on length/height, weight and age.  \emph{Acta Paediatr},
 #'Suppl. 2006, 450, 76-85.
+#'
+#'de Onis M, Onyango AW, Borghi E, Siyam A, Nishida C, Siekmann J.
+#'Development of a WHO growth reference for school-aged children and adolescents
+#'\emph{Bulletin of the World Health Organization}, 2007;85:660-7.
 #'@keywords datasets
 NULL
 

@@ -1,8 +1,8 @@
 Package: AGD
 Type: Package
-Version: 0.32
+Version: 0.35
 Title: Analysis of Growth Data
-Date: 2015-01-11
+Date: 2015-05-27
 Author: Stef van Buuren <stef.vanbuuren@tno.nl>
 Maintainer: Stef van Buuren <stef.vanbuuren@tno.nl>
 Depends:
