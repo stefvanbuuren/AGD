@@ -375,3 +375,42 @@ save(who.wgt, file = file.path(targetdir, "who.wgt.rda"), compress = "xz")
 save(who.bmi, file = file.path(targetdir, "who.bmi.rda"), compress = "xz")
 save(who.wfl, file = file.path(targetdir, "who.wfl.rda"), compress = "xz")
 save(who.wfh, file = file.path(targetdir, "who.wfh.rda"), compress = "xz")
+
+
+# prepare for rif format for import to clopus
+who.hgtwgtbmi <- data.frame(
+	x = who.hgt$x,
+	ll = who.hgt$L,
+	lm = who.hgt$M,
+	ls = who.hgt$S,
+	gl = who.wgt$L,
+	gm = who.wgt$M,
+	gs = who.wgt$S,
+	bl = who.bmi$L,
+	bm = who.bmi$M,
+	bs = who.bmi$S
+)
+mwho2011 <- who.hgtwgtbmi[1:2026,]
+wwho2011 <- who.hgtwgtbmi[2027:4052,]
+
+mwho2011wfl <- who.wfl[1:651, c("x","L","M","S")]
+wwho2011wfl <- who.wfl[652:1302, c("x","L","M","S")]
+
+mwho2011wfh <- who.wfh[1:551, c("x","L","M","S")]
+wwho2011wfh <- who.wfh[552:1102, c("x","L","M","S")]
+
+targetdir <- path.expand("~/Project/Groeistat/diversen/ReferenceLibrary/data/References/Misc")
+
+write.table(mwho2011, file = file.path(targetdir, "mwho2011.txt"), sep = "\t",
+			row.name = FALSE, quote = FALSE)
+write.table(wwho2011, file = file.path(targetdir, "wwho2011.txt"), sep = "\t",
+			row.name = FALSE, quote = FALSE)
+write.table(mwho2011wfl, file = file.path(targetdir, "mwho2011wfl.txt"), sep = "\t",
+			row.name = FALSE, quote = FALSE)
+write.table(wwho2011wfl, file = file.path(targetdir, "wwho2011wfl.txt"), sep = "\t",
+			row.name = FALSE, quote = FALSE)
+write.table(mwho2011wfh, file = file.path(targetdir, "mwho2011wfh.txt"), sep = "\t",
+			row.name = FALSE, quote = FALSE)
+write.table(wwho2011wfh, file = file.path(targetdir, "wwho2011wfh.txt"), sep = "\t",
+			row.name = FALSE, quote = FALSE)
+
