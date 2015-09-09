@@ -332,6 +332,17 @@ who.wgt <- data.frame(pop = "who",
 who.wgt <- rbind(who.wgt[who.wgt$sex == "M",],
 				 who.wgt[who.wgt$sex == "F",])
 
+## who.hdc
+who <- read.delim(file = file.path(indir, "hcanthro.txt"))
+who.hdc <- data.frame(pop = "who",
+					  sub = "N",
+					  sex = factor(ifelse(who$sex == 1, "M", "F")),
+					  x = round(who$age / 365.25, 4),
+					  L = who$l,
+					  M = who$m,
+					  S = who$s)
+
+
 ## bmi
 part1 <- read.delim(file = file.path(indir, "bmianthro.txt"))
 part2 <- read.delim(file = file.path(indir, "bfawho2007.txt"))
@@ -369,9 +380,11 @@ who.wfh <- data.frame(pop = "who",
 					  M = who$m,
 					  S = who$s)
 
+
 # save WHO refs
 save(who.hgt, file = file.path(targetdir, "who.hgt.rda"), compress = "xz")
 save(who.wgt, file = file.path(targetdir, "who.wgt.rda"), compress = "xz")
+save(who.hdc, file = file.path(targetdir, "who.hdc.rda"), compress = "xz")
 save(who.bmi, file = file.path(targetdir, "who.bmi.rda"), compress = "xz")
 save(who.wfl, file = file.path(targetdir, "who.wfl.rda"), compress = "xz")
 save(who.wfh, file = file.path(targetdir, "who.wfh.rda"), compress = "xz")
@@ -412,5 +425,14 @@ write.table(wwho2011wfl, file = file.path(targetdir, "wwho2011wfl.txt"), sep = "
 write.table(mwho2011wfh, file = file.path(targetdir, "mwho2011wfh.txt"), sep = "\t",
 			row.name = FALSE, quote = FALSE)
 write.table(wwho2011wfh, file = file.path(targetdir, "wwho2011wfh.txt"), sep = "\t",
+			row.name = FALSE, quote = FALSE)
+
+## WHO hdc
+targetdir <- path.expand("~/Project/Groeistat/diversen/ReferenceLibrary/data/References/Misc")
+mwho2011.hdc <- who.hdc[who.hdc$sex == "M", c("x", "L", "M", "S")]
+wwho2011.hdc <- who.hdc[who.hdc$sex == "F", c("x", "L", "M", "S")]
+write.table(mwho2011.hdc, file = file.path(targetdir, "mwho2011hdc.txt"), sep = "\t",
+			row.name = FALSE, quote = FALSE)
+write.table(wwho2011.hdc, file = file.path(targetdir, "wwho2011hdc.txt"), sep = "\t",
 			row.name = FALSE, quote = FALSE)
 
