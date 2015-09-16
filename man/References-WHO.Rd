@@ -4,6 +4,7 @@
 \name{References WHO}
 \alias{References WHO}
 \alias{who.bmi}
+\alias{who.hdc}
 \alias{who.hgt}
 \alias{who.wfh}
 \alias{who.wfl}
@@ -41,6 +42,7 @@ The naming conventions are as follows:
 \item{who.hgt}{Length (cm, 0-2 Yrs) or height (cm, 2-19 years)}
 \item{who.wgt}{Weight (kg) for age (0-10 years)}
 \item{who.bmi}{BMI (kg/m^2) for age (0-19 years)}
+\item{who.hdc}{Head circumference (cm) for age (0-5 years)}
 \item{who.wfh}{Weight (kg) for height (65-120 cm)}
 \item{who.wfl}{Weight (kg) for length (45-110 cm)}
 }

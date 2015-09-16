@@ -181,12 +181,13 @@ NULL
 #'\item{who.hgt}{Length (cm, 0-2 Yrs) or height (cm, 2-19 years)} 
 #'\item{who.wgt}{Weight (kg) for age (0-10 years)}
 #'\item{who.bmi}{BMI (kg/m^2) for age (0-19 years)}
+#'\item{who.hdc}{Head circumference (cm) for age (0-5 years)}
 #'\item{who.wfh}{Weight (kg) for height (65-120 cm)}
 #'\item{who.wfl}{Weight (kg) for length (45-110 cm)}
 #'}
 #'
 #'@name References WHO
-#'@aliases who.wgt who.hgt who.bmi who.wfh who.wfl
+#'@aliases who.wgt who.hgt who.bmi who.wfh who.wfl who.hdc
 #'@docType data
 #'@format A data frame with seven variables: 
 #'\describe{
