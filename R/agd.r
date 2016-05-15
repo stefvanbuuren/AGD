@@ -184,8 +184,8 @@ z2y <- function(z   = c(-2, 0, 2),
 	if (!is.data.frame(ref)) stop("'ref' should be a data frame.")
 	n <- length(z)
 	if (n < 1)         stop("'z' must have 1 or more values")
-	if(!is.vector(z))  stop("'z' must be a numeric vector")
-	if(!is.numeric(z)) stop("'z' must be a numeric vector")
+	if(!is.vector(z))  return(as.numeric(rep(NA, n)))
+	if(!is.numeric(z)) return(as.numeric(rep(NA, n)))
 	
 	x   <- rep(x,   length.out=length(z))
 	sex <- rep(sex, length.out=length(z))
@@ -460,8 +460,8 @@ y2z <- function(y   = c(75, 80, 85),
 	if (!is.data.frame(ref)) stop("'ref' should be a data frame.")
 	n <- length(y)
 	if (n < 1)         stop("'y' must have 1 or more values")
-	if(!is.vector(y))  stop("'y' must be a numeric vector")
-	if(!is.numeric(y)) stop("'y' must be a numeric vector")
+	if(!is.vector(y))  return(as.numeric(rep(NA, n)))
+	if(!is.numeric(y)) return(as.numeric(rep(NA, n)))
 	
 	x   <- rep(x,   length.out=length(y))
 	sex <- rep(sex, length.out=length(y))
