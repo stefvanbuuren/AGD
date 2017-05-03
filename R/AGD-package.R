@@ -1,4 +1,10 @@
-
+#'@importFrom stats approx coef dnorm fitted lm pnorm qnorm qqnorm resid spline
+#'@importFrom grDevices gray
+#'@importFrom graphics  Axis abline axis box co.intervals grid lines mtext par plot plot.new plot.window points rect text
+#'@importFrom utils packageDescription
+#'@importFrom gamlss.dist pBCCG pBCPE pBCT qBCCG qBCPE qBCT
+#'@importFrom gamlss gamlss gamlss.control is.gamlss predictAll
+NULL
 
 #'Growth of Dutch boys
 #'

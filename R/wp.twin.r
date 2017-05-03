@@ -79,7 +79,7 @@
 #'coeff1 <- wp.twin(a,b,line=TRUE)
 #'coeff1
 #'rm(a,b,coeff1)
-#'
+#'@export
 wp.twin <- function(obj1, obj2=NULL, xvar=NULL, xvar.column=2,
            n.inter=16,
            show.given=FALSE, ylim.worm=0.5,

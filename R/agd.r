@@ -126,8 +126,7 @@
 #'dimnames(w) <- list(days, sds)
 #'w
 #'
-#'
-
+#'@export
 z2y <- function(z   = c(-2, 0, 2), 
 				x   = 1, 
 				sex = "M", 
@@ -393,7 +392,7 @@ z2y <- function(z   = c(-2, 0, 2),
 #'dimnames(w) <- list(days, sds)
 #'w
 #'
-#'
+#'@export
 y2z <- function(y   = c(75, 80, 85), 
 				x   = 1, 
 				sex = "M", 

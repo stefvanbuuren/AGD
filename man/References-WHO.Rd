@@ -3,12 +3,12 @@
 \docType{data}
 \name{References WHO}
 \alias{References WHO}
-\alias{who.bmi}
-\alias{who.hdc}
+\alias{who.wgt}
 \alias{who.hgt}
+\alias{who.bmi}
 \alias{who.wfh}
 \alias{who.wfl}
-\alias{who.wgt}
+\alias{who.hdc}
 \title{References WHO}
 \format{A data frame with seven variables: 
 \describe{
@@ -53,4 +53,3 @@ The naming conventions are as follows:
 \url{http://www.who.int/growthref/en/}
 }
 \keyword{datasets}
-

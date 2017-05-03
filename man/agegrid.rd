@@ -26,10 +26,8 @@ Creates an age grid according to a specified format.
 
 age <- ageGrid("classic")$year
 
-
 }
 \author{
 Stef van Buuren, 2010
 }
 \keyword{distribution}
-

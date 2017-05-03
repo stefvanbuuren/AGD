@@ -3,17 +3,17 @@
 \docType{data}
 \name{References NL4}
 \alias{References NL4}
+\alias{nl4.hgt}
+\alias{nl4.wgt}
+\alias{nl4.wfh}
 \alias{nl4.bmi}
 \alias{nl4.hdc}
-\alias{nl4.hgt}
-\alias{nl4.hip}
 \alias{nl4.lgl}
-\alias{nl4.shh}
-\alias{nl4.sit}
-\alias{nl4.wfh}
-\alias{nl4.wgt}
-\alias{nl4.whr}
+\alias{nl4.hip}
 \alias{nl4.wst}
+\alias{nl4.whr}
+\alias{nl4.sit}
+\alias{nl4.shh}
 \title{Reference tables from Fourth Dutch Growth Study 1997}
 \format{A data frame with seven variables: \describe{
 \item{list("pop")}{Study Population} \item{list("sub")}{Subpopulation, e.g.
@@ -55,4 +55,3 @@ Height/Height ratio for Age} }
 \code{\link{cdc.wgt}}, \code{\link{who.wgt}}
 }
 \keyword{datasets}
-

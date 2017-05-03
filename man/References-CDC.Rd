@@ -3,9 +3,9 @@
 \docType{data}
 \name{References CDC}
 \alias{References CDC}
-\alias{cdc.bmi}
 \alias{cdc.hgt}
 \alias{cdc.wgt}
+\alias{cdc.bmi}
 \title{Reference tables from CDC 2000}
 \format{A data frame with seven variables: \describe{
 \item{list("pop")}{Study Population} \item{list("sub")}{Subpopulation}
@@ -37,4 +37,3 @@ height, or stature (standing).}
 \code{\link{who.wgt}}
 }
 \keyword{datasets}
-

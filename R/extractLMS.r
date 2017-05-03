@@ -74,6 +74,7 @@
 #'nl4.hgt.boys.log <- extractLMS(fit = f0106rlog, data=data.t)
 #'nl4.hgt.boys.log
 #'}
+#'@export
 extractLMS <- function(fit, data, sex="M", grid="classic",
             decimals = c(4,4,4), 
             flatAge = NULL)
@@ -146,7 +147,7 @@ extractLMS <- function(fit, data, sex="M", grid="classic",
 #'
 #'age <- ageGrid("classic")$year
 #'
-#'
+#'@export
 ageGrid <- function(grid="compact"){
   formats <- c("compact", "classic", "extensive", "0-104w", "0-24m", "0-21y", "0-21yd", "0-21yc")
   fmi <- pmatch(grid, formats)

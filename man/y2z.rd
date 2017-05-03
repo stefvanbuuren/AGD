@@ -180,13 +180,11 @@ w    <- matrix(w, ncol=length(sds), byrow=TRUE)
 dimnames(w) <- list(days, sds)
 w
 
-
-}
-\author{
-Stef van Buuren, 2010
 }
 \seealso{
 \code{\link{z2y}}
 }
+\author{
+Stef van Buuren, 2010
+}
 \keyword{distribution}
-

@@ -90,10 +90,6 @@ b <- gamlss(y~cs(x,df=3),sigma.fo=~cs(x,1),family=LO,data=abdom)
 coeff1 <- wp.twin(a,b,line=TRUE)
 coeff1
 rm(a,b,coeff1)
-
-}
-\author{
-Stef van Buuren, using R code of Mikis Stasinopoulos and Bob Rigby
 }
 \references{
 Stasinopoulos D. M. Rigby R.A. (2007) Generalized additive models
@@ -111,5 +107,7 @@ regression.  \emph{Statistical Modelling}, \bold{7}, 4, 363--376.
 \seealso{
 \code{\link{wp}}
 }
+\author{
+Stef van Buuren, using R code of Mikis Stasinopoulos and Bob Rigby
+}
 \keyword{smooth}
-
