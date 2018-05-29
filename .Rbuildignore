@@ -1,3 +1,6 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
 ^references$
+cran-comments.md
+cran-comments.Rmd
+^revdep$

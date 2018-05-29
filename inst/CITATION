@@ -12,6 +12,6 @@ bibentry(
                email = "stef.vanbuuren@tno.nl")),
     year = "2018",
     note = "R package version 0.39",
-    url = "http://CRAN.R-project.org/package=AGD",
+    url = "https://CRAN.R-project.org/package=AGD",
     key = "AGD-package"
     )
