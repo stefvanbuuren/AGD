@@ -5,8 +5,8 @@
 \title{Convert standard deviation scores (SDS) to measurements}
 \usage{
 z2y(z = c(-2, 0, 2), x = 1, sex = "M", sub = "N",
-  ref = get("nl4.hgt"), dist = "LMS", dec = 3, sex.fallback = "M",
-  sub.fallback = "N")
+  ref = get("nl4.hgt"), dist = "LMS", dec = 3, sex.fallback = NA,
+  sub.fallback = NA)
 }
 \arguments{
 \item{z}{A numerical vector containing standard deviation scores that are to
@@ -36,13 +36,12 @@ The default is \code{"LMS"}.}
 value.}
 
 \item{sex.fallback}{The level of the \code{sex} field used when no match is
-found.  The default is \code{"M"} for males. Specify \code{sex.fallback="NA"}
-if unmatched entries should receive a \code{NA} value.}
+found.  The default \code{sex.fallback=NA} specifies that 
+unmatched entries should receive a \code{NA} value.}
 
 \item{sub.fallback}{The level of the \code{sub} field used when no match is
-found.  The default is \code{"N"} for normal. Specify
-\code{sub.fallback="NA"} if unmatched entries should receive a \code{NA}
-value.}
+found.  The default \code{sub.fallback=NA} specifies that 
+unmatched entries should receive a \code{NA} value.}
 }
 \value{
 For \code{y2z()}: A vector with \code{length(y)} elements containing

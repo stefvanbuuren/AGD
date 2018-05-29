@@ -5,8 +5,8 @@
 \title{Converts measurements to standard deviation scores (SDS)}
 \usage{
 y2z(y = c(75, 80, 85), x = 1, sex = "M", sub = "N",
-  ref = get("nl4.hgt"), dist = "LMS", dec = 3, sex.fallback = "M",
-  sub.fallback = "N", tail.adjust = FALSE)
+  ref = get("nl4.hgt"), dist = "LMS", dec = 3, sex.fallback = NA,
+  sub.fallback = NA, tail.adjust = FALSE)
 }
 \arguments{
 \item{y}{A numerical vector containing the outcome measurements.  The length
@@ -35,13 +35,12 @@ The default is \code{"LMS"}.}
 value.}
 
 \item{sex.fallback}{The level of the \code{sex} field used when no match is
-found.  The default is \code{"M"} for males. Specify \code{sex.fallback="NA"}
-if unmatched entries should receive a \code{NA} value.}
+found.  The default \code{sex.fallback=NA} specifies that 
+unmatched entries should receive a \code{NA} value.}
 
 \item{sub.fallback}{The level of the \code{sub} field used when no match is
-found.  The default is \code{"N"} for normal. Specify
-\code{sub.fallback="NA"} if unmatched entries should receive a \code{NA}
-value.}
+found.  The default \code{sub.fallback=NA} specifies that 
+unmatched entries should receive a \code{NA} value.}
 
 \item{tail.adjust}{Logical. If \code{TRUE} then the WHO method for 
 tail adjustment is applied. The default is \code{FALSE}.}
