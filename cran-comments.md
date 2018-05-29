@@ -17,7 +17,9 @@ Test environments
 -   local OS X install, 10.13.4, R 3.5.0
 -   win-builder, using `devtools::build_win()`
 
-There was no ERROR, WARNING or NOTE.
+There was no ERROR or WARNING.
+
+NOTE: Possibly mis-spelled words in DESCRIPTION.
 
 R CMD check results
 -------------------
