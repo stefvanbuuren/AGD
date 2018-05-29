@@ -2,7 +2,7 @@
 
 AGD: Analysis of Growth Data
 
-Tools for the NIHES course 'Analysis of Growth Data', 22-23 May 2012, Rotterdam
+Tools for the NIHES course 'Analysis of Growth Data'
 Stef van Buuren (TNO, UU), Paul Eilers (EUR)
 
 Stef van Buuren - stef.vanbuuren@tno.nl
@@ -12,6 +12,12 @@ Stef van Buuren - stef.vanbuuren@tno.nl
 
 CHANGELOG AGD
 ~~~~~~~~~~~~~~
+v0.39 - 29-05-2018 / SvB
+- change default SDS for unmatched entries to NA
+
+v0.38 - 03-05-2017 / SvB
+- export functions properly
+
 V0.37 - 15-05-2016 / SvB
 - y2z() and z2y() return NA's instead of error
 

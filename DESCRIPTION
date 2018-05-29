@@ -1,8 +1,8 @@
 Package: AGD
 Type: Package
-Version: 0.38
+Version: 0.39
 Title: Analysis of Growth Data
-Date: 2017-05-03
+Date: 2018-05-30
 Author: Stef van Buuren <stef.vanbuuren@tno.nl>
 Maintainer: Stef van Buuren <stef.vanbuuren@tno.nl>
 Depends:
@@ -10,8 +10,11 @@ Depends:
 Imports:
     gamlss,
     gamlss.dist
-Description: Tools for NIHES course EP18 'Analysis of Growth Data', May 22-23
-    2012, Rotterdam.
+Description: The packages contains a tools for the analysis of growth
+    data. There are tools to extract an LMS table from a gamlss object,
+    to calculate the standard deviation scores and its inverse, and 
+    to superpose two wormplots from different models. The package 
+    contains a wide variety of reference tables.
 License: GPL-2 | GPL-3
 LazyLoad: yes
 LazyData: yes
