@@ -40,11 +40,8 @@ cutoff <- c(
 25.00)
 age <- 2:18
 z <- y2z(y = cutoff, x = 2:18, sex = "M", ref = nl4.bmi)
-```
-
-``` r
 plot(age, z, type = "b", xlab = "Age (years", 
      ylab = "SDS IOTF (on Dutch reference)")
 ```
 
-![](README-plotiotf-1.png)
+![Standard deviation score of IOTF overweight cut-off relative to Dutch reference](README-minimal-1.png)
