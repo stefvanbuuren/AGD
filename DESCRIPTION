@@ -3,7 +3,7 @@ Type: Package
 Version: 0.39
 Title: Analysis of Growth Data
 Date: 2018-05-30
-Author: Stef van Buuren <stef.vanbuuren@tno.nl>
+Authors@R: person("Stef", "van Buuren", role = c("aut", "cre"), email = "stef.vanbuuren@tno.nl")
 Maintainer: Stef van Buuren <stef.vanbuuren@tno.nl>
 Depends:
     R (>= 2.10.0)
