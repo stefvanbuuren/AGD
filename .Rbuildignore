@@ -4,3 +4,6 @@
 cran-comments.md
 cran-comments.Rmd
 ^revdep$
+README-minimal-1.png
+README.Rmd
+^docs$

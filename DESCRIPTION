@@ -1,8 +1,8 @@
 Package: AGD
 Type: Package
-Version: 0.39
+Version: 0.40
 Title: Analysis of Growth Data
-Date: 2018-05-30
+Date: 2019-02-10
 Authors@R: person("Stef", "van Buuren", role = c("aut", "cre"), email = "stef.vanbuuren@tno.nl")
 Maintainer: Stef van Buuren <stef.vanbuuren@tno.nl>
 Depends:
@@ -20,4 +20,4 @@ LazyLoad: yes
 LazyData: yes
 URL: https://github.com/stefvanbuuren/AGD
 BugReports: https://github.com/stefvanbuuren/AGD/issues
-RoxygenNote: 6.0.1
+RoxygenNote: 6.1.1
