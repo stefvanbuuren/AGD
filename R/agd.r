@@ -498,7 +498,7 @@ y2z <- function(y   = c(75, 80, 85),
 								   dist=dist, tail.adjust = tail.adjust)
 	}
 	
-	z <- unsplit(zs,f=list(sub,sex))		
+	z <- unsplit(zs,f=list(sub,sex), drop = TRUE)		
 	names(z) <- names(y)
 	return(round(z, dec))
 }
