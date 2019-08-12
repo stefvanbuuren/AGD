@@ -491,6 +491,7 @@ y2z <- function(y   = c(75, 80, 85),
 	zs <- vector("list",length(ys))
 	names(zs) <- names(ys)
 	
+	if (length(ys) == 0L) return(rep(NA, length(y)))
 	for(i in 1:length(ys)) {
 		name <- names(ys)[i]
 		if(is.null(refs[[name]])) ys[[name]] <- rep(NA,length=length(ys[[name]]))
