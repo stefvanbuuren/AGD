@@ -10,7 +10,8 @@
 \alias{who.wfl}
 \alias{who.hdc}
 \title{References WHO}
-\format{A data frame with seven variables: 
+\format{
+A data frame with seven variables: 
 \describe{
 \item{pop}{Study Population (always \code{"who"})} 
 \item{sub}{Subpopulation (always \code{"N"})}
@@ -19,7 +20,8 @@
 \item{L}{Lambda (skewness) curve}
 \item{M}{Median curve}
 \item{S}{Coefficient of variation}
-}}
+}
+}
 \source{
 WHO Multicentre Growth Reference Study Group.  WHO Child Growth
 Standards based on length/height, weight and age.  \emph{Acta Paediatr},

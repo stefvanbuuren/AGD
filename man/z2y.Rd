@@ -4,9 +4,17 @@
 \alias{z2y}
 \title{Convert standard deviation scores (SDS) to measurements}
 \usage{
-z2y(z = c(-2, 0, 2), x = 1, sex = "M", sub = "N",
-  ref = get("nl4.hgt"), dist = "LMS", dec = 3, sex.fallback = NA,
-  sub.fallback = NA)
+z2y(
+  z = c(-2, 0, 2),
+  x = 1,
+  sex = "M",
+  sub = "N",
+  ref = get("nl4.hgt"),
+  dist = "LMS",
+  dec = 3,
+  sex.fallback = NA,
+  sub.fallback = NA
+)
 }
 \arguments{
 \item{z}{A numerical vector containing standard deviation scores that are to

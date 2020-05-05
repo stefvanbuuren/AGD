@@ -4,7 +4,8 @@
 \name{boys7482}
 \alias{boys7482}
 \title{Growth of Dutch boys}
-\format{A data frame with 7482 rows on the following 9 variables: 
+\format{
+A data frame with 7482 rows on the following 9 variables: 
 \describe{
 \item{age}{Decimal age (0-21 years)} 
 \item{hgt}{Height (cm)}
@@ -15,7 +16,8 @@
 \item{phb}{Pubic hair (Tanner P1-P6)}
 \item{tv}{Testicular volume (ml)} 
 \item{reg}{Region (north, east, west, south, city)} 
-}}
+}
+}
 \source{
 Fredriks, A.M,, van Buuren, S., Burgmeijer, R.J., Meulmeester JF,
 Beuker, R.J., Brugman, E., Roede, M.J., Verloove-Vanhorick, S.P., Wit, J.M.

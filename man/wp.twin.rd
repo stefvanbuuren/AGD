@@ -4,9 +4,21 @@
 \alias{wp.twin}
 \title{Superposes two worm plots}
 \usage{
-wp.twin(obj1, obj2 = NULL, xvar = NULL, xvar.column = 2,
-  n.inter = 16, show.given = FALSE, ylim.worm = 0.5, line = FALSE,
-  cex = 1, col1 = "black", col2 = "orange", warnings = FALSE, ...)
+wp.twin(
+  obj1,
+  obj2 = NULL,
+  xvar = NULL,
+  xvar.column = 2,
+  n.inter = 16,
+  show.given = FALSE,
+  ylim.worm = 0.5,
+  line = FALSE,
+  cex = 1,
+  col1 = "black",
+  col2 = "orange",
+  warnings = FALSE,
+  ...
+)
 }
 \arguments{
 \item{obj1}{a GAMLSS fitted object}

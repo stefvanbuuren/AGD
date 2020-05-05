@@ -4,8 +4,14 @@
 \alias{extractLMS}
 \title{Extracts LMS values from a gamlss object.}
 \usage{
-extractLMS(fit, data, sex = "M", grid = "classic", decimals = c(4, 4,
-  4), flatAge = NULL)
+extractLMS(
+  fit,
+  data,
+  sex = "M",
+  grid = "classic",
+  decimals = c(4, 4, 4),
+  flatAge = NULL
+)
 }
 \arguments{
 \item{fit}{A gamlss object containing the final fit on transformed age,

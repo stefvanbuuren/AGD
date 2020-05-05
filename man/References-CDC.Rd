@@ -7,11 +7,13 @@
 \alias{cdc.wgt}
 \alias{cdc.bmi}
 \title{Reference tables from CDC 2000}
-\format{A data frame with seven variables: \describe{
+\format{
+A data frame with seven variables: \describe{
 \item{list("pop")}{Study Population} \item{list("sub")}{Subpopulation}
 \item{list("sex")}{Sex (M,F)} \item{list("x")}{Decimal age (0-5 years)}
 \item{list("L")}{Lambda (skewness) curve} \item{list("M")}{Median curve}
-\item{list("S")}{Coefficient of Variation curve} }}
+\item{list("S")}{Coefficient of Variation curve} }
+}
 \source{
 Kuczmarski RJ, Ogden CL, Guo SS, Grummer-Strawn LM, Flegal KM, Mei Z,
 Wei R, Curtin LR, Roche AF, Johnson CL.  2000 CDC growth charts for the

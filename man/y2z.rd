@@ -4,9 +4,18 @@
 \alias{y2z}
 \title{Converts measurements to standard deviation scores (SDS)}
 \usage{
-y2z(y = c(75, 80, 85), x = 1, sex = "M", sub = "N",
-  ref = get("nl4.hgt"), dist = "LMS", dec = 3, sex.fallback = NA,
-  sub.fallback = NA, tail.adjust = FALSE)
+y2z(
+  y = c(75, 80, 85),
+  x = 1,
+  sex = "M",
+  sub = "N",
+  ref = get("nl4.hgt"),
+  dist = "LMS",
+  dec = 3,
+  sex.fallback = NA,
+  sub.fallback = NA,
+  tail.adjust = FALSE
+)
 }
 \arguments{
 \item{y}{A numerical vector containing the outcome measurements.  The length

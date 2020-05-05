@@ -15,12 +15,14 @@
 \alias{nl4.sit}
 \alias{nl4.shh}
 \title{Reference tables from Fourth Dutch Growth Study 1997}
-\format{A data frame with seven variables: \describe{
+\format{
+A data frame with seven variables: \describe{
 \item{list("pop")}{Study Population} \item{list("sub")}{Subpopulation, e.g.
 ethnicity or age group (for \code{nl4.wfh})} \item{list("sex")}{Sex (M,F)}
 \item{list("x")}{Decimal age (0-21 years) or Height (for \code{nl4.wfh})}
 \item{list("L")}{Lambda (skewness) curve} \item{list("M")}{Median curve}
-\item{list("S")}{Coefficient of Variation curve} }}
+\item{list("S")}{Coefficient of Variation curve} }
+}
 \source{
 Fredriks, A.M,, van Buuren, S., Burgmeijer, R.J., Meulmeester JF,
 Beuker, R.J., Brugman, E., Roede, M.J., Verloove-Vanhorick, S.P., Wit, J.M.
