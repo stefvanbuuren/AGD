@@ -20,5 +20,4 @@ LazyLoad: yes
 LazyData: yes
 URL: https://github.com/stefvanbuuren/AGD
 BugReports: https://github.com/stefvanbuuren/AGD/issues
-RoxygenNote: 7.1.0
 Encoding: UTF-8
