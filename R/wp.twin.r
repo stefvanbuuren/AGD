@@ -60,7 +60,7 @@
 #'@references Stasinopoulos D. M. Rigby R.A. (2007) Generalized additive models
 #'for location scale and shape (GAMLSS) in R. \emph{Journal of Statistical
 #'Software}, Vol. \bold{23}, Issue 7, Dec 2007,
-#'\url{http://www.jstatsoft.org/v23/i07}.
+#'\url{https://www.jstatsoft.org/v23/i07}.
 #'
 #'van Buuren and Fredriks M. (2001) Worm plot: simple diagnostic device for
 #'modelling growth reference curves.  \emph{Statistics in Medicine}, \bold{20},

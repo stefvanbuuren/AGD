@@ -206,8 +206,8 @@ NULL
 #'\item{S}{Coefficient of variation}
 #'}
 #'@seealso \code{\link{nl4.wgt}}, \code{\link{cdc.wgt}}, 
-#'\url{http://www.who.int/childgrowth/mgrs/en/},
-#'\url{http://www.who.int/growthref/en/} 
+#'\url{https://www.who.int/childgrowth/mgrs/en/},
+#'\url{https://www.who.int/growthref/en/} 
 #'@source 
 #'WHO Multicentre Growth Reference Study Group.  WHO Child Growth
 #'Standards based on length/height, weight and age.  \emph{Acta Paediatr},
