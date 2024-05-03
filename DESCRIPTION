@@ -18,7 +18,7 @@ Description: Tools for the analysis of growth data: to extract an
 License: GPL-2 | GPL-3
 LazyLoad: yes
 LazyData: yes
-URL: https://stefvanbuuren.name/AGD
+URL: https://stefvanbuuren.name/AGD/
 BugReports: https://github.com/stefvanbuuren/AGD/issues
 Encoding: UTF-8
 RoxygenNote: 7.3.1
