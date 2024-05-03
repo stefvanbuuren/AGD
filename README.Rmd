@@ -15,7 +15,7 @@ knitr::opts_chunk$set(
 options(width = 60, digits = 3)
 ```
 
-# [AGD: Analysis of Growth Data](http://stefvanbuuren.github.io/AGD/)
+# [AGD: Analysis of Growth Data](https://stefvanbuuren.github.io/AGD/)
 
 The [`AGD`](https://cran.r-project.org/package=AGD) package
 implements various tools that aid in the analysis of growth data.
@@ -31,8 +31,8 @@ install.packages("AGD")
 The latest version is can be installed from GitHub as follows: 
 
 ```{r eval = FALSE}
-install.packages("devtools")
-devtools::install_github(repo = "stefvanbuuren/AGD")
+install.packages("remotes")
+remotes::install_github(repo = "stefvanbuuren/AGD")
 ```
 
 

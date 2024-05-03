@@ -9,9 +9,14 @@ Stef van Buuren - stef.vanbuuren@tno.nl
 
 ---------------------------------------------------------------------
 
+- This package is no further developed.
+- If you need more flexibility, consider `https://github.com/growthcharts/centile`
 
 CHANGELOG AGD
 ~~~~~~~~~~~~~~
+v0.43 - 03-05-2024 / SvB
+- Maintainance version
+
 v0.39 - 29-05-2018 / SvB
 - change default SDS for unmatched entries to NA
 

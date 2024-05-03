@@ -1,11 +1,11 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-[AGD: Analysis of Growth Data](http://stefvanbuuren.github.io/AGD/)
-===================================================================
 
-The [`AGD`](https://cran.r-project.org/package=AGD) package implements various tools that aid in the analysis of growth data.
+# [AGD: Analysis of Growth Data](https://stefvanbuuren.github.io/AGD/)
 
-Installation
-------------
+The [`AGD`](https://cran.r-project.org/package=AGD) package implements
+various tools that aid in the analysis of growth data.
+
+## Installation
 
 The `AGD` package can be installed from CRAN as follows:
 
@@ -16,12 +16,11 @@ install.packages("AGD")
 The latest version is can be installed from GitHub as follows:
 
 ``` r
-install.packages("devtools")
-devtools::install_github(repo = "stefvanbuuren/AGD")
+install.packages("remotes")
+remotes::install_github(repo = "stefvanbuuren/AGD")
 ```
 
-Minimal example
----------------
+## Minimal example
 
 ``` r
 library(AGD)
@@ -44,4 +43,9 @@ plot(age, z, type = "b", xlab = "Age (years",
      ylab = "SDS IOTF (on Dutch reference)")
 ```
 
-![Standard deviation score of IOTF overweight cut-off relative to Dutch reference](README-minimal-1.png)
+<figure>
+<img src="README-minimal-1.png"
+alt="Standard deviation score of IOTF overweight cut-off relative to Dutch reference" />
+<figcaption aria-hidden="true">Standard deviation score of IOTF
+overweight cut-off relative to Dutch reference</figcaption>
+</figure>
