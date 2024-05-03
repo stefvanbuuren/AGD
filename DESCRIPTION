@@ -1,6 +1,6 @@
 Package: AGD
 Type: Package
-Version: 0.44.0
+Version: 0.45.0
 Title: Analysis of Growth Data
 Date: 2024-05-03
 Authors@R: person("Stef", "van Buuren", role = c("aut", "cre"), email = "stef.vanbuuren@tno.nl")
@@ -18,7 +18,7 @@ Description: Tools for the analysis of growth data: to extract an
 License: GPL-2 | GPL-3
 LazyLoad: yes
 LazyData: yes
-URL: https://github.com/stefvanbuuren/AGD
+URL: https://stefvanbuuren.name/AGD
 BugReports: https://github.com/stefvanbuuren/AGD/issues
 Encoding: UTF-8
 RoxygenNote: 7.3.1
