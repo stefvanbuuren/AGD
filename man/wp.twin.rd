@@ -95,13 +95,13 @@ adequately the data (called "model violation")
 }
 \examples{
 
+\dontrun{
 library(gamlss)
 data(abdom)
 a <- gamlss(y~cs(x,df=1),sigma.fo=~cs(x,0),family=LO,data=abdom)
 b <- gamlss(y~cs(x,df=3),sigma.fo=~cs(x,1),family=LO,data=abdom)
 coeff1 <- wp.twin(a,b,line=TRUE)
-coeff1
-rm(a,b,coeff1)
+}
 }
 \references{
 Stasinopoulos D. M. Rigby R.A. (2007) Generalized additive models
@@ -115,9 +115,6 @@ modelling growth reference curves.  \emph{Statistics in Medicine}, \bold{20},
 
 van Buuren and Fredriks M. (2007) Worm plot to diagnose fit in quantile
 regression.  \emph{Statistical Modelling}, \bold{7}, 4, 363--376.
-}
-\seealso{
-\code{\link{wp}}
 }
 \author{
 Stef van Buuren, using R code of Mikis Stasinopoulos and Bob Rigby

@@ -56,7 +56,6 @@
 #'the fitted cubic polynomials to the residuals (within each \code{xvar}
 #'interval) are returned.
 #'@author Stef van Buuren, using R code of Mikis Stasinopoulos and Bob Rigby
-#'@seealso \code{\link{wp}}
 #'@references Stasinopoulos D. M. Rigby R.A. (2007) Generalized additive models
 #'for location scale and shape (GAMLSS) in R. \emph{Journal of Statistical
 #'Software}, Vol. \bold{23}, Issue 7, Dec 2007,
@@ -72,13 +71,13 @@
 #'@keywords smooth
 #'@examples
 #'
-#'library(gamlss)
-#'data(abdom)
-#'a <- gamlss(y~cs(x,df=1),sigma.fo=~cs(x,0),family=LO,data=abdom)
-#'b <- gamlss(y~cs(x,df=3),sigma.fo=~cs(x,1),family=LO,data=abdom)
-#'coeff1 <- wp.twin(a,b,line=TRUE)
-#'coeff1
-#'rm(a,b,coeff1)
+#'\dontrun{
+#' library(gamlss)
+#' data(abdom)
+#' a <- gamlss(y~cs(x,df=1),sigma.fo=~cs(x,0),family=LO,data=abdom)
+#' b <- gamlss(y~cs(x,df=3),sigma.fo=~cs(x,1),family=LO,data=abdom)
+#' coeff1 <- wp.twin(a,b,line=TRUE)
+#' }
 #'@export
 wp.twin <- function(obj1, obj2=NULL, xvar=NULL, xvar.column=2,
            n.inter=16,
