@@ -5,40 +5,76 @@ Package built by
 
 ``` r
 library("devtools")
-build_vignettes()
 build()
 ```
 
-`"/Users/buurensv/Package/mice/AGD_0.39.tar.gz"`
-
-Test environments
------------------
-
--   local OS X install, 10.13.4, R 3.5.0
--   win-builder, using `devtools::build_win()`
-
-There was no ERROR or WARNING.
-
-NOTE: Possibly mis-spelled words in DESCRIPTION.
-
-R CMD check results
--------------------
+## R CMD check results
 
 Status OK
 
-Downstream dependencies
------------------------
+There was no ERROR, WARNING or NOTE.
+
+## Downstream dependencies
 
 I have run
 
 ``` r
 revdep_check()
-revdep_check_save_summary()
-revdep_check_print_problems()
 ```
 
-There was 1 reverse dependency.
+There was 1 reverse dependency. The check on this package did not run,
+possibly because
+`https://cran.r-project.org/web//packages/checks/check_results_AGD.html`
+was unavailable.
 
-There were no packages with problems.
+# Platform
 
-See <https://github.com/stefvanbuuren/AGD/master/revdep/problems.md>
+| field    | value                                                                                               |
+|:---------|:----------------------------------------------------------------------------------------------------|
+| version  | R version 4.4.0 (2024-04-24)                                                                        |
+| os       | macOS Sonoma 14.4.1                                                                                 |
+| system   | aarch64, darwin20                                                                                   |
+| ui       | RStudio                                                                                             |
+| language | (EN)                                                                                                |
+| collate  | en_US.UTF-8                                                                                         |
+| ctype    | en_US.UTF-8                                                                                         |
+| tz       | Europe/Amsterdam                                                                                    |
+| date     | 2024-05-03                                                                                          |
+| rstudio  | 2024.04.0+735 Chocolate Cosmos (desktop)                                                            |
+| pandoc   | 3.1.11 @ /Applications/RStudio.app/Contents/Resources/app/quarto/bin/tools/aarch64/ (via rmarkdown) |
+
+# Dependencies
+
+| package     | old    | new    | Δ   |
+|:------------|:-------|:-------|:----|
+| AGD         | 0.39   | NA     | \*  |
+| gamlss      | 5.4-22 | 5.4-22 |     |
+| gamlss.data | 6.0-6  | 6.0-6  |     |
+| gamlss.dist | 6.1-1  | 6.1-1  |     |
+
+# Revdeps
+
+## New problems (1)
+
+| package                                | version | error | warning | note   |
+|:---------------------------------------|:--------|:------|:--------|:-------|
+| [brokenstick](problems.md#brokenstick) | 2.5.0   |       |         | **+1** |
+
+# brokenstick
+
+<details>
+
+- Version: 2.5.0
+- GitHub: <https://github.com/growthcharts/brokenstick>
+- Source code: <https://github.com/cran/brokenstick>
+- Date/Publication: 2023-03-22 23:00:06 UTC
+- Number of recursive dependencies: 119
+
+Run `revdepcheck::revdep_details(, "brokenstick")` for more info
+
+</details>
+
+## Newly broken
+
+- checking package dependencies … NOTE
+  `Package suggested but not available for checking: ‘AGD’`
