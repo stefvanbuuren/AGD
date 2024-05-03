@@ -22,10 +22,8 @@ I have run
 revdep_check()
 ```
 
-There was 1 reverse dependency. The check on this package did not run,
-possibly because
-`https://cran.r-project.org/web//packages/checks/check_results_AGD.html`
-was unavailable.
+There was 1 reverse dependency, `brokenstick`. The check on this package
+did not run.
 
 # Platform
 
