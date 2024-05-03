@@ -1,36 +1,33 @@
-# Setup
+# Platform
 
-## Platform
+|field    |value                                                                                               |
+|:--------|:---------------------------------------------------------------------------------------------------|
+|version  |R version 4.4.0 (2024-04-24)                                                                        |
+|os       |macOS Sonoma 14.4.1                                                                                 |
+|system   |aarch64, darwin20                                                                                   |
+|ui       |RStudio                                                                                             |
+|language |(EN)                                                                                                |
+|collate  |en_US.UTF-8                                                                                         |
+|ctype    |en_US.UTF-8                                                                                         |
+|tz       |Europe/Amsterdam                                                                                    |
+|date     |2024-05-03                                                                                          |
+|rstudio  |2024.04.0+735 Chocolate Cosmos (desktop)                                                            |
+|pandoc   |3.1.11 @ /Applications/RStudio.app/Contents/Resources/app/quarto/bin/tools/aarch64/ (via rmarkdown) |
 
-|setting  |value                        |
-|:--------|:----------------------------|
-|version  |R version 3.5.0 (2018-04-23) |
-|system   |x86_64, darwin15.6.0         |
-|ui       |RStudio (1.1.453)            |
-|language |(EN)                         |
-|collate  |nl_NL.UTF-8                  |
-|tz       |Europe/Amsterdam             |
-|date     |2018-05-29                   |
+# Dependencies
 
-## Packages
+|package     |old    |new    |Δ  |
+|:-----------|:------|:------|:--|
+|AGD         |0.39   |NA     |*  |
+|gamlss      |5.4-22 |5.4-22 |   |
+|gamlss.data |6.0-6  |6.0-6  |   |
+|gamlss.dist |6.1-1  |6.1-1  |   |
 
-|package     |*  |version |date       |source                       |
-|:-----------|:--|:-------|:----------|:----------------------------|
-|AGD         |*  |0.39    |2018-05-29 |local (stefvanbuuren/AGD@NA) |
-|gamlss      |   |5.0-8   |2018-04-30 |cran (@5.0-8)                |
-|gamlss.dist |   |5.0-5   |2018-04-30 |cran (@5.0-5)                |
+# Revdeps
 
-# Check results
+## New problems (1)
 
-1 packages
-
-|package |version | errors| warnings| notes|
-|:-------|:-------|------:|--------:|-----:|
-|mice    |3.0.0   |      0|        0|     0|
-
-## mice (3.0.0)
-Maintainer: Stef van Buuren <stef.vanbuuren@tno.nl>  
-Bug reports: https://github.com/stefvanbuuren/mice/issues
-
-0 errors | 0 warnings | 0 notes
+|package     |version |error |warning |note   |
+|:-----------|:-------|:-----|:-------|:------|
+|[brokenstick](problems.md#brokenstick)|2.5.0   |      |        |__+1__ |
 
