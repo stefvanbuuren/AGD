@@ -1,6 +1,6 @@
 Package: AGD
 Type: Package
-Version: 0.43.0
+Version: 0.44.0
 Title: Analysis of Growth Data
 Date: 2024-05-03
 Authors@R: person("Stef", "van Buuren", role = c("aut", "cre"), email = "stef.vanbuuren@tno.nl")
