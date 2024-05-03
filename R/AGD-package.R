@@ -205,9 +205,7 @@ NULL
 #'\item{M}{Median curve}
 #'\item{S}{Coefficient of variation}
 #'}
-#'@seealso \code{\link{nl4.wgt}}, \code{\link{cdc.wgt}}, 
-#'\url{https://www.who.int/childgrowth/mgrs/en/},
-#'\url{https://www.who.int/growthref/en/} 
+#'@seealso \code{\link{nl4.wgt}}, \code{\link{cdc.wgt}}
 #'@source 
 #'WHO Multicentre Growth Reference Study Group.  WHO Child Growth
 #'Standards based on length/height, weight and age.  \emph{Acta Paediatr},

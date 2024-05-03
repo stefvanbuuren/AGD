@@ -1,6 +1,6 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# [AGD: Analysis of Growth Data](https://stefvanbuuren.github.io/AGD/)
+# [AGD: Analysis of Growth Data](https://stefvanbuuren.name/AGD/)
 
 The [`AGD`](https://cran.r-project.org/package=AGD) package implements
 various tools that aid in the analysis of growth data.

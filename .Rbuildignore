@@ -7,3 +7,4 @@ cran-comments.Rmd
 README-minimal-1.png
 README.Rmd
 ^docs$
+^.github$

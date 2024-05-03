@@ -50,8 +50,6 @@ The naming conventions are as follows:
 }
 }
 \seealso{
-\code{\link{nl4.wgt}}, \code{\link{cdc.wgt}}, 
-\url{https://www.who.int/childgrowth/mgrs/en/},
-\url{https://www.who.int/growthref/en/}
+\code{\link{nl4.wgt}}, \code{\link{cdc.wgt}}
 }
 \keyword{datasets}
